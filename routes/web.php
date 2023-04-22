@@ -28,7 +28,4 @@ Route::resource('tarefas', App\Http\Controllers\TarefaController::class)->middle
 
 Route::get('/mensagem-teste', function (){
     return new MensagemTesteMail();
-//    Mail::to('jpdevelop2023@gmail.com')->send(new MensagemTesteMail());
-//
-//    return "Email enviado com sucesso";
 });
